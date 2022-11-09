@@ -24,11 +24,20 @@
         color: black;
         }
 
-        #myFavoriteFoodTable {
+        #myFavoriteFoodTable a:hover{
+        color: rgb(7, 160, 184);
+        }
+
+        .myFavFoodTable{
          text-align: center;
-         border: #333 2px;
+         border: #333 2px solid;
          border-radius: 01.4rem;
          padding:0 30px;
+         margin: 5% 25%;
+        }
+        table{
+          margin:5%;
+          border-color: rgb(132, 132, 132);
         }
 
         .tableHead{
@@ -49,12 +58,27 @@
         .tableRowOdd{
             border:2px grey;
             padding: 5px;
-
+        }
+        h1{
+          text-align: center;
+          margin-bottom: 50px;
         }
     
     </style>
 </head>
 <body>
+  <h1>Tables</h1> 
+  <p>permite a los developers contener información en filas y/o columnas</p><br>
+
+  <h4>Syntax</h4>
+  <ul>
+    <li>table (tab)= define el elemento</li>
+    <li>tr= define las filas</li>
+    <li>th= define el header de la tabla</li>
+    <li>td= define table display la posición dentro del row/fila</li>
+  </ul>
+<!-- si una posición no tiene información se deja vacía pero se pone para tal de no perder ese lugar ( dejando un vacío dentro de la tabala) -->
+  <h1>Practicas</h1>
     <h2> Example table 1</h2>
     <table>
         <tr>
@@ -78,8 +102,9 @@
             <td>La Habana</td>
         </tr>
     </table> 
+    <br>
 
-    <h2>table 2</h2>
+    <h2>Table 2</h2>
     <table>
       <tr>
         <th>Day</th>
@@ -116,9 +141,10 @@
     </table>
 
     <br/>
-
+    <h2>Table 3</h2>
+<div class="myFavFoodTable">
     <h2>My favorite food table</h2>
-<table id="myFavoriteFoodTable">
+  <table id="myFavoriteFoodTable">
     <tr>
         <th class="tableHead">Comida</th>
         <th class="tableHead">Imagen</th>
@@ -158,6 +184,7 @@
         <td><a href="https://www.tlaxcal.com/"target="blank">Txacal</a></td>
         <td><h2>4<sup>o</sup></h2></td>
     </tr>
-</table>
+  </table>
+</div>
 </body>
 </html>

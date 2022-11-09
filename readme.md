@@ -81,6 +81,19 @@ This is going to be awesome! So let's do it!
 
 - 07-layout.html
 
+  1. semantic elements
+
+  - header
+  - nav
+  - main
+  - section
+  - article
+  - footer
+
+  2. non-semantic elements
+
+  - div
+
 - 08-layout-practice.html
 
 ## Segundo dia 08-11
@@ -107,16 +120,53 @@ This is going to be awesome! So let's do it!
 #### Section 01 html
 
 - 09-tables.html
+
+  1. table tag (general)
+  2. tr (filas)
+  3. th (header)
+  4. td (display/posición)
+
 - 10-inline-vs-block.html
+
+  1. inline elements
+  2. block elements
+
 - 11-ids.html
-- 12- classes.html
-- 13-
+- 12-classes.html
+- 13-semantica
 
 semantico: su nombre es explicito ( seguir)
 no semantico: no dice que es (seguir)
 
-    - Tablas
-    (rellenar)
+#### Section 02 CSS
+
+- 01-basics.html
+
+  1. style tag en head
+  2. doc externo css stylesheet
+  3. inline css
+
+- 02-selectors.html
+  1.
+- 03-fonts.html
+- 04-text-properties.html
+- 05-colors.html
+
+  1. directo
+  2. hex
+  3. rgb
+  4. rgba
+  5. opacidad
+
+- 06-borders-backround.html
+  1. borders
+- 07-box-model.html
+  1. margin
+  2. padding
 
 elementos linia: ocupan todo alto
 elementos bloque se acumulan de lado
+
+## Tercer dia 09-11
+
+- 08-float-and-align
