@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        img{
+            width: 300px;
+        }
+
+        body {
+            color: #333;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 1.4rem;
+        }
+
+        #myFavoriteFoodTable a{
+        text-decoration: none;
+        color: black;
+        }
+
+        #myFavoriteFoodTable {
+         text-align: center;
+         border: #333 2px;
+         border-radius: 01.4rem;
+         padding:0 30px;
+        }
+
+        .tableHead{
+            color: rgb(7, 160, 184);
+            border-color: #333;
+            padding: 5px;
+        }
+
+        .tableRowEven{
+            background-color: rgb(247, 246, 246);
+            border:2px rgb(42, 40, 40);
+            padding:5px;
+        }
+
+        .tableRowEven h2{
+            color:rgb(7, 160, 184);
+        }
+        .tableRowOdd{
+            border:2px grey;
+            padding: 5px;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <h2> Example table 1</h2>
+    <table>
+        <tr>
+            <th>Artista</th>
+            <th>Genre</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Mark Ronson</td>
+            <td></td> <!-- para que el contenido se borre pero no la posición-->
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Franz Ferdinand</td>
+            <td>Indie</td>
+            <td>Glasgow</td>
+        </tr>
+        <tr>
+            <td>Buena vista social club</td>
+            <td>música tropical</td>
+            <td>La Habana</td>
+        </tr>
+    </table> 
+
+    <h2>table 2</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <td>de x a x</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> de xx a xx</td>
+        <td></td>
+        <td></td>
+        <td>de xx a xx</td>
+      </tr>
+      <tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>de xx a xx</td>
+            <td></td>
+            <td></td>
+            <td>de xx a xx</td>
+            <td></td>
+            <td></td>
+          </tr>
+      </tr>
+    </table>
+
+    <br/>
+
+    <h2>My favorite food table</h2>
+<table id="myFavoriteFoodTable">
+    <tr>
+        <th class="tableHead">Comida</th>
+        <th class="tableHead">Imagen</th>
+        <th class="tableHead">País</th>
+        <th class="tableHead">En Bcn</th> 
+        <th class="tableHead">Rating</th>
+    </tr>
+    <tr class="tableRowEven">
+        <td>Pizza</td>
+        <td><img src="https://images.xceed.me/restaurants/gallery/parking-pizza-restaurant-barcelona-xceed-de40-4ee2.jpeg" alt=" pizza parking pizza">
+    </td>
+        <td>Italia</td>
+        <td><a href="https://www.petitbangkok.com/" target="blank">Pizza Mrket</a></td>
+        <td><h2>3<sup>o</sup></h2></td>
+    </tr>
+    <tr class="tableRowOdd">
+        <td>Pad thai</td>
+        <td><img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/97/4e/8d/pad-thai.jpg" alt=" Pad thai petit bankok">
+    </td>
+        <td>Tailandia</td>
+        <td><a href="https://www.petitbangkok.com/" target="blank">Petit Bangkok</a></td> 
+        <td><h2>2<sup>o</sup></h2></td>
+    </tr>
+    <tr class="tableRowEven">
+        <td>Sushi</td>
+        <td><img src="https://www.muyjapones.com/restaurantesjaponeses/wp-content/uploads/Asagumo-8.jpg" alt=" Sushi asagumo">
+    </td>
+        <td>Japón</td>
+         <td><a href="http://www.asagumo.es/"target="blank">Asagumo</a></td> 
+        <td><h2>1<sup>o</sup></h2></td>
+    </tr>
+    <tr class="tableRowOdd">
+        <td>Fajitas</td>
+        <td><img src="https://t1.uc.ltmcdn.com/es/posts/6/4/5/como_hacer_fajitas_de_pollo_29546_600_square.jpg" alt=" Fajitas">
+    </td>
+        <td>Mexico</td>
+        <td><a href="https://www.tlaxcal.com/"target="blank">Txacal</a></td>
+        <td><h2>4<sup>o</sup></h2></td>
+    </tr>
+</table>
+</body>
+</html>

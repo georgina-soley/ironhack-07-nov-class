@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* univeral selector for whole document */
+        *{
+            box-sizing: border-box;
+        }
+
+        ul{
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            color: #333;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 1.4rem;
+        }
+
+        #header {
+            margin-bottom: 15px;
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+        #main{
+            float:left ;
+            width: 69%;
+        }
+
+        #sidebar{
+            float: right;
+            width: 29%;
+        }
+        .clr {
+            clear: both;
+        }
+    
+
+        #footer{
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+        }  */
+
+        .text-center {
+            text-align: center;
+            display: block;
+        }
+
+        .card {
+            background: color #f4f4ff;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: solid 1px black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header id="header" class="card">
+        <h1>My website</h1>
+        <p>just another webpage, but is special to me!</p>
+    </header>
+    <main id="main">
+  <!-- welcomesection -->
+  <section id="welcome" class="card">
+        <h2>Welcome to my website</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil veritatis, error architecto asperiores nobis dignissimos, ducimus eveniet ratione aperiam reprehenderit obcaecati iusto delectus aliquid ut consequatur quos quaerat dicta dolorum. <br />
+            <a href="#" class="text-center">Learn more</a>
+        </p>
+    </section>
+     <section>
+
+    </section>
+        
+
+    </main>
+    <aside id="sidebar" class="card">
+        <!-- <title></title> -->
+        <h3>navegation</h3>
+        <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+         </ul>
+        </nav>
+        <hr />
+        <button> Contact us</button>
+
+        <ul>
+            <li><strong>Address:</strong>Wherever</li>
+            <li><strong>Phone:</strong>Whichever</li>
+            <li><strong>Email:</strong>Another</li>
+        </ul>
+    </aside>
+    <div class="clr"></div>
+    <footer id="footer" class="text-center">
+ <p>Copyright &copy;</p>
+    </footer>
+
+   
+</body>
+</html>

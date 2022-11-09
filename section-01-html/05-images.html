@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style> 
+        img{
+            display: block;
+            width: 50%;
+            margin:1rem 0;
+        }
+        </style>
+</head>
+<body>
+    <!-- formatos aceptados JPEG, PNG, SVG, ICO, GIF, APNG, WEBP -->
+  <h3>images</h3>
+  <strong>Syntax</strong>
+  <p> img lleva atributos</p><br>
+  <p> <b></b>src=</b>" especifica la ruta de la imagen que queremos mostrar, sea interna o externa</p><br>
+  <p><b>alt=</b>"donde especificamos el texto que aparecerá en caso que no se vea la imagen, este texto será descriptibo puesto que será leido por "screenReaders" para hacer esta imagen accesible</p>
+
+  <!-- linking an internal Image poner la ruta donde se encuentra la img -->
+    <img src="../images/brothers.jpeg" alt="a-track and chromeo">
+
+  <!-- Linking an external Image -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkBI1nyYEZgXmBfh-SBl_oBD0gZ4c7a2bCmA&usqp=CAU" alt="A-track Live Set">
+
+  <!-- Linking an external image with some width and height -->
+    <img src="https://cdn.wegow.com/media/artists/chromeo/chromeo-1528732929.8.2560x1440.jpeg" alt=" chromeo boys" 
+    width="400"
+    height="200"
+    
+    />
+    <h3>link external file (gif)</h3>
+  <!-- Linking an external file suh as gif      -->
+    <img src="https://media.giphy.com/media/l41Yrr2MVwyFydA9G/giphy.gif" alt="chromeo">
+ 
+ <!-- Having an image as a a-tag/link -->
+ <h3>Using Image as a Link</h3>
+ <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAWkHIJdfEy4&psig=AOvVaw3aH4hbmjR1X5OShIwRFQWc&ust=1668034087758000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCND59qvVn_sCFQAAAAAdAAAAABAo" target="_blank">
+  <img
+    src="https://i.ytimg.com/vi/AWkHIJdfEy4/maxresdefault.jpg"
+    alt="The brothers macklovitch DJ Set"
+  />
+</a>
+
+<hr />
+<!-- Using another element that wraps the img tag to provide more context on the screen, not really commonly used. -->
+<!-- You can place the figcaption element either above or below and it will be treated as a block element -->
+
+<h3>Using Figure Tag</h3>
+
+<figure>
+  <img
+    src="https://img.youtube.com/vi/oREahjoY-JY/hqdefault.jpg"
+    alt="The brothers macklovitch Brand"
+  />
+  <figcaption> Image of THE brothers, what a flow guys!</figcaption>
+</figure>
+
+</body>
+</html>
