@@ -169,4 +169,9 @@ elementos bloque se acumulan de lado
 
 ## Tercer dia 09-11
 
+#### Section 02 CSS 2.0
+
 - 08-float-and-align
+- 09-botones-links.html
+
+#### HTML & CSS
