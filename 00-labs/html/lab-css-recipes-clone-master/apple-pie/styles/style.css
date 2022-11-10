@@ -1,14 +1,25 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 /* universal selector */
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     }
     
     body{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
         line-height: 1.4em;
         margin: 0;
         padding: 0;
+    }
+
+    h3{
+        font-weight: 600;
+        font-size: 1.65rem;
+        margin-bottom: 2rem;
     }
     
     .header{
@@ -17,34 +28,106 @@
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
-        height: 1000px;;
+        height: 80vh;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
-    h1{
+   header h1{
         color: white;
         font-size: 6em;
         text-align: center;
-        font-weight: 300;
+        font-weight: 100;
         display:flex;
         justify-content: center;
     }
 
+    /* sections */
+    main {
+        padding: 4rem;
+    }
+
+
+    /* asi comentamos a todas las imagenes del main */
+
+    main img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+     main section{
+        padding: 2rem 0;
+     }
+    /* section 1 */
+
     .section-1{
         padding: 75px 0;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
+    
     .section-1 p{
      font-weight: 100;
      font-size: 1.5rem;
+     line-height: 1.75rem;
+     margin: 0 0 20% 0;
      text-align: center;
      width: 75%;
     }
     
-    .image-recipe-info{
-        margin: 20px auto 30px auto;
+    /* .image-recipe-info{
+        margin: 30px auto 50px auto;
+        border-bottom: 2px solid gray;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+    } */
+
+    .image-recipe-info img{
+        width: 50%;
     }
+
+    /* section 2 */
     
+    .section-2{
+        width: 75%;
+        margin: 0 10vh;
+    }
+
+    /* asi cambiamos/adaptamos el "bulletpoint" */
+
+    .section-2 li{
+     list-style-type:"- ";
+     margin: 0 0 3rem 2rem;
+    }
+
+    /* section 3 */
+    .section-3{
+        width: 75%;
+    }
+
+    .section-3 ol{
+        list-style-type: none;
+        margin: 0 0 3rem 2rem;
+        counter-reset: section-3;
+
+    }
+
+    .section-3 ol li::before{
+        content: counter(section-3) ")";
+        counter-increment: section-3;
+    }
+
+    .section-3 li{
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin: 0.5rem 0;
+    }
     footer{
         background-color: rgb(30, 46, 3);
         color: white;
@@ -54,3 +137,5 @@
     footer i{
         color: white;
     }
+
+    

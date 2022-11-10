@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .prueba-media{
+            background-color:rgb(5, 26, 254);
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        /* mobile */
+    @media (max-width: 500px){
+        .prueba-media{
+            background-color: lightcoral;
+        }
+    }
+
+    @media (min-width: 501) and (max-width: 700px){
+        .prueba-media{
+            background-color: lightgreen;
+        }
+    }
+
+    @media (min-width:701px) and (max-width: 900px){
+        .prueba-media{
+            background-color: lightsalmon;
+        }
+    }
+
+    @media (min-width:1080){
+        .prueba-media{
+            background-color:lightskyblue;
+        }
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="note">
+        <h4>Mueve la pantalla para que veas los efectos</h4>
+    </div>
+    
+    <div class="prueba-media">
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos autem voluptatum incidunt perferendis, dolorem dicta nobis debitis officia vel quaerat ipsa, aperiam reiciendis animi quae impedit ipsam molestias natus.</p>
+    </div>
+</body>
+</html>

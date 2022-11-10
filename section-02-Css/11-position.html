@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <!-- /* prueba cajas */ -->
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+
+    .container{
+        width: 500px;
+        height: 500px;
+        background-color: lightgrey;
+    }
+    #box-1{
+        background-color: red;
+    }
+/* z index divide la pantalla en diferentes bloques 3D desde 0 a 50 (o 99) si elemento hay z index 0 y 1 el 1 queda sobrepuesto */
+    
+    /* el top lo posicióna con la caja que lo continenee porque esta dentro del div contenedor */
+    #box-2{
+        background-color: rgb(225, 255, 0);
+        position: absolute;
+        top: 100px;
+        left: 300px;
+        
+    }
+    #box-3{
+        background-color: rgb(0, 0, 255);
+    }
+    #box-4{
+        background-color: rgb(149, 0, 255);
+        position: fixed;
+        /* position fixed siempre quedarà anclada fija en el punto dicho (analiza las dimensiones del padre... si no se le dice nada va completamente abajo) si queremos elementos estaticos en pantalla... como barras de busqueda o similar*/
+
+    }
+   
+   /* cuando el elemento que tiene position sticky llega al top queda pegado alli y no desaparece */
+    #box-5{
+        background-color: rgb(0, 255, 38);
+        position: sticky;
+        top: 0;
+    }
+
+    .contenedor{
+        width: 800px;
+        height: 800px;
+        background-color: rgb(252, 251, 215);
+        position: relative;
+    }
+
+    .box{
+        width: 300px;
+        height: 300px;
+    }
+   
+    #leon{
+        background-image: url(./img/photo-1536478848964-3934cd9de097.avif);
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #bird{
+        background-image: url("./img/parrot.avif");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #suricata{
+        background-image: url("./img/photo-1586959140255-aab0163e21cf.avif");
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #jellyfish{
+        background-image: url(./img/photo-1540968221243-29f5d70540bf.avif);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    section{
+        width: 800px;
+        height: 800px;
+        background-color: rgb(203, 241, 222);
+        position: relative;
+    }
+
+    section>div{
+        width: 300px;
+        height: 300px;
+    }
+
+    section :first-child {
+        background-image: url("./img/photo-1536478848964-3934cd9de097.avif");
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    section :last-child {
+        background-image: url("./img/photo-1586959140255-aab0163e21cf.avif");
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    section :nth-child(2){
+        background-image: url("./img/parrot.avif");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    section :nth-child(3){
+        background-image: url("./img/photo-1540968221243-29f5d70540bf.avif");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <!-- <div id="box-1"></div>
+<div class="container">
+    <div id="box-2" class="box"></div>
+    <div id="box-3" class="box"></div>
+    </div>
+</div>
+<div id="box-4" class="box"></div>
+<div id="box-5" class="box"></div>
+ -->
+
+<h1>Prueba</h1>
+<div class="contenedor">
+    <div class="box" id="leon"></div>
+    <div class="box" id="bird"></div>
+    <div class="box" id="suricata"></div>
+    <div class="box" id="jellyfish"></div>
+</div>
+
+<br>
+
+<h1>Prueba 2</h1>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
