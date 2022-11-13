@@ -17,9 +17,9 @@
     }
 
     h3{
-        font-weight: 600;
+        font-weight: 400;
         font-size: 1.65rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
     }
     
     .header{
@@ -74,8 +74,8 @@
     .section-1 p{
      font-weight: 100;
      font-size: 1.5rem;
-     line-height: 1.75rem;
-     margin: 0 0 20% 0;
+     line-height: 2rem;
+     margin: 0 0 5% 0;
      text-align: center;
      width: 75%;
     }
@@ -88,27 +88,66 @@
         justify-content: center;
     } */
 
+    .image-recipe-info {
+        width: 75%;
+        border-bottom: 2px solid #8b8b8b;
+    }
+
     .image-recipe-info img{
-        width: 50%;
+        width: 60%;
+        margin-bottom: 3vh;
     }
 
     /* section 2 */
     
     .section-2{
         width: 75%;
-        margin: 0 10vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* align-items:flex-start; */
+        flex-direction: column;
+        
     }
 
+    .section-2 ul{
+        /* margin-bottom: vh; */
+    }
+
+    
     /* asi cambiamos/adaptamos el "bulletpoint" */
 
     .section-2 li{
      list-style-type:"- ";
-     margin: 0 0 3rem 2rem;
+     margin: 0 0 1rem 2rem;
+     font-weight: 200;
+     font-size: 1.25rem;
+     /* margin: 0 0 5% 0; */
+     margin-bottom: 5%;
+    }
+
+    .image-cooking-info {
+        /* width: 75%; */
+        border-bottom: 2px solid #8b8b8b;
+        /* align-content: center; */
+    }
+
+    .image-cooking-info img{
+        width: 50%;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
     }
 
     /* section 3 */
+
     .section-3{
         width: 75%;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* align-items:flex-start; */
+        flex-direction: column;
     }
 
     .section-3 ol{
@@ -117,25 +156,29 @@
         counter-reset: section-3;
 
     }
-
+/* junto con counter-rest:section-3 del ol i el counter-increment:section-3 del li se modifica el numerador del listado */
     .section-3 ol li::before{
-        content: counter(section-3) ")";
+        content: counter(section-3) ") ";
         counter-increment: section-3;
     }
 
     .section-3 li{
-        font-size: 0.8rem;
+        font-size:1.25rem;
         font-weight: 300;
-        margin: 0.5rem 0;
+        margin: 1rem 0;
+        line-height: 24px;
     }
     footer{
-        background-color: rgb(30, 46, 3);
+        background-color: rgb(54, 70, 25);
         color: white;
         text-align: center;
+        padding: 10px;
+        
     }
     
     footer i{
         color: white;
+        margin: 5px;
     }
 
     

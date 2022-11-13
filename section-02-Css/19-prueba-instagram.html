@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="grid2.css" />
+    <title>CSS Grid Template Areas</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        height: 100vh;
+
+        /* grid props */
+        display: grid;
+        grid-template-areas:
+          "nav header sidebar"
+          "nav content sidebar"
+          "nav footer sidebar";
+        grid-template-columns: 2fr 5fr 3fr;
+        grid-template-rows: 130px 1fr 70px;
+      }
+
+      header,
+      footer,
+      main,
+      aside,
+      nav {
+        background-color: rgb(238, 238, 238);
+        color: #fff;
+        padding: 20px;
+        /* border: skyblue 1px solid; */
+      }
+
+      header {
+        grid-area: header;
+      }
+
+      nav {
+        grid-area: nav;
+        background-color: white;
+        border-right: rgba(211, 211, 211, 0.597) 2px solid;
+        color:#262626
+      }
+
+      main {
+        grid-area: content;
+      }
+
+      aside {
+        grid-area: sidebar;
+      }
+
+      footer {
+        grid-area: footer;
+      }
+      nav img{
+        width: 15vh;
+        padding: 10px;
+      }
+      .stories-container{
+        background-color: #fff;
+        border-color: lightgrey 2px solid;
+        border-radius: 5px;
+        width: 80%;
+        height: 80%;
+        margin: 20px;
+        justify-content: end;
+      }
+
+      nav ul{
+
+      }
+
+     li{
+        list-style: none;
+        display: flex;
+     }
+
+     li div{
+        display: flex;
+        margin: 30px 10px 30px 10px;
+     }
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="stories-container">
+            <div class="friends"></div>
+            <div class="friends"></div>
+            <div class="friends"></div>
+            <div class="friends"></div>
+            <div class="friends"></div>
+            <div class="friends"></div>
+        </div>
+    </header>
+    <main>Image</main>
+    <nav>
+        <div>
+            <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-1.png" alt="instagram logotipo">
+        </div>
+        <div>
+            <ul class="menu">
+                <li>
+                  <div class="nav-boton">
+                    <i class="fa-solid fa-house"></i>
+                    <h3>Home</h3>
+                  </div>
+                </li>
+                <li>
+                    <div class="nav-boton">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      <h3>Search</h3>
+                    </div>
+                  </li> <li>
+                    <div class="nav-boton">
+                        <i class="fa-light fa-compass"></i>
+                      <h3>Explore</h3>
+                    </div>
+                  </li> <li>
+                    <div class="nav-boton">
+                        <i class="fa-light fa-paper-plane-top"></i>
+                      <h3>Messages</h3>
+                    </div>
+                  </li> <li>
+                    <div class="nav-boton">
+                        <i class="fa-light fa-heart"></i>
+                      <h3>Notificaciones</h3>
+                    </div>
+                  </li> <li>
+                    <div class="nav-boton">
+                        <i class="fa-regular fa-square-plus"></i>
+                      <h3>Create</h3>
+                    </div>
+                  </li> <li>
+                    <div class="nav-boton">
+                      <i class="fa-solid fa-user"></i>
+                      <h3>Profile</h3>
+                    </div>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+    <aside>Sidebar</aside>
+    <footer>Footer</footer>
+  </body>
+</html>

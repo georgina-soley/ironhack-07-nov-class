@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  line-height: 1.4em;
+}
+
+/* Cabecera/ menu */
+header {
+  min-height: 8vh;
+  padding: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* para position fixed hace falta poner donde se queda posicionado */
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px rgba(26, 26, 26, 0.1);
+
+}
+
+header img {
+  height: 6vh;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.menu a{
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+.menu a:hover {
+  color: #fff;
+  font-weight: 400;
+  background-color: #00B172;;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+/* section 1 */
+
+.hero-shoot {
+ background-image: url("../images/landing.jpg");
+ /* background position es para que no se mueva? */
+ background-position: 0 0;
+ background-size: cover;
+ /* background repeat es para que no se repita la imagen si se quedara pequeña */
+ background-repeat: no-repeat;
+ position: relative;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items:center
+}
+
+.hero-shoot div{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 6rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.hero-shoot p{
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+}
+
+/* section 2 */
+
+
+.title h3{
+ font-size: 2.4rem;
+ font-weight: 500;
+ text-align: center;
+ line-height: 2.6rem;
+ padding: 75px 0 25px;
+}
+
+/* como puedo separar el border del titulo, o hacerlo mas largo?*/
+.title  h3 span {
+  border-bottom:3px #00B172 solid;
+}
+
+.contenedor {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin:60px 20px 100px 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height:auto;
+  margin: 20px;
+}
+
+.box img{
+  height: 20vh;
+  /* width: 20vh; */
+  justify-content: baseline;
+  margin-bottom: 5vh;
+}
+
+.box h4{
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-bottom:2vh ;
+  color: #00B172;
+}
+
+.box p{
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+/* section 3 */
+
+.green {
+  background-color: #00B172;
+  border-radius: 3px;
+  margin: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  margin: 3% 3% 0 3%;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  /* justify-content: space-around;
+  padding: 80px 0 50px 0; */
+}
+.external {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+
+
+}
+
+.text h3 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  /* margin-bottom: 4vh; */
+  font-weight: 400;
+  text-align: left;
+}
+
+.text h3 span {
+  border-bottom: #fff 4px solid;
+  
+}
+
+.text h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin:6vh 0 2vh 0;
+}
+
+.text p{
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: left;
+  font-weight: 300;
+  width: 65%;
+
+}
+
+.imagotype img{
+  width: 18vh;
+  align-items: center;
+}
+
+.app img{
+  width: 50%;
+}
+
+@media only screen and (max-width:1024px){
+  .app{
+    display: none;
+  }
+  .imagotype{
+    display:none
+  }
+  .text {
+    width: 100%;
+    justify-content: center;
+    padding: 40px;
+  }
+}
+
+@media ( max-width:700px){
+  header{
+    flex-direction: column;
+    padding: 2vh;
+  }
+}
+/* seria interesante que la imagen de debajo se continuara abajo no se sobreponiera esta al hero */
+@media (max-width:450px){
+  .menu ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  .menu li{
+    padding: 8px;
+    border-bottom: #1a1a1a39 1px solid;
+  }
+}
