@@ -187,6 +187,18 @@ elementos bloque se acumulan de lado
 - 15-media-query-example.html
 - 16-flex-basics.html
 
-## Quinto dia 11
+## Quinto dia 11-11
 
 ![Mood/Feeling of the day](https://media2.giphy.com/media/26BGIqWh2R1fi6JDa/giphy.gif?cid=ecf05e47q84vfg0ertq7xzgb9cyjxqxujggveoyqpzt4ywyv&rid=giphy.gif&ct=g)
+
+- 17-grid-basics.html
+- 18-grid-basics-example.html
+- 19-grid-basics-example-2.html
+
+- Empezamos actividad clone Instagram
+
+## Sexto dia 14-11
+
+Querido readme...
+
+![I'm ready](https://media.giphy.com/media/Y3MbPtRn74uR3Ziq4P/giphy.gif)
