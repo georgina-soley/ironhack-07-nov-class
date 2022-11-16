@@ -203,6 +203,10 @@ Querido readme...
 
 ![I'm ready](https://media.giphy.com/media/Y3MbPtRn74uR3Ziq4P/giphy.gif)
 
+**_Quote of the day:_**
+
+> No great thing is created suddenly. - Epictetus
+
 #### Section 03 JavaScript
 
 - 01-js-basics.html
@@ -257,6 +261,10 @@ Querido readme...
 ## 7º dia 15-11
 
 ![ofu que dia](https://media1.giphy.com/media/KpACNEh8jXK2Q/giphy.gif?cid=ecf05e47tc65hxsoq8uu422bef6ysrrrwtlqop0nv7evnl04&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> The more we value things outside our control, the less control we have. - Marcus Aurelius
 
 - 07-condicionals.js
   ** 4. Switch Statment**

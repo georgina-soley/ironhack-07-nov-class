@@ -5,4 +5,9 @@ ParseFloat()
 prompt()
 
 alert() //este esta en el Function With Two Params & Return Statement
-.split()
+    .split()
+
+String.length: The.length property of a string returns the number of characters that make up the string
+
+Math.floor()
+The Math.floor() function returns the largest integer less than or equal to the given number.
