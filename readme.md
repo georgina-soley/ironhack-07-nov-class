@@ -202,3 +202,103 @@ elementos bloque se acumulan de lado
 Querido readme...
 
 ![I'm ready](https://media.giphy.com/media/Y3MbPtRn74uR3Ziq4P/giphy.gif)
+
+#### Section 03 JavaScript
+
+- 01-js-basics.html
+  unido a 02-js-master.js
+
+- 02-Js-master.html (pag basics prueba sobre el que ir probando)
+
+- 03-intro.js
+
+  1. intro
+  2. console.log
+
+- 04-data-types.js
+
+  1. primitivos
+     -numeros
+     -string "", '',``
+     -booleans
+     -null
+     -undifined
+     -symbols (estos no acabo de entender)
+
+  2. no primitivos
+     -arrays []
+     -objects {}
+
+  04-2-pruebas.js
+
+- 05-variables.js
+
+  1. var = obsoleto
+  2. **let** _nameVariable_ = _valor_ (variable puede modificarse)
+  3. **const** _nameVariable_ = _valor_ (will remain unchanged)
+
+- 06-operators.js
+
+  1. Assignament operators
+     ("=","+=","-=","\*=","/=","%=","\*\*=")
+  2. Arithemical Operators
+     (+, - , \*, /, ++, --,\*\*)
+  3. Comparison Operators
+     ("==","!=","===","!==",">",">=","<","<=")
+  4. Logical Operators
+     ( && (and), ||(or), !(not))
+  5. String Operators
+     (podemos usar algunos operadores para otras operaciones que no corresponden matematica, como sumar tos textos)
+  6. Other Operators
+
+- 07-conditionals.js
+  ** 1. if 2. if... else 3. else...if**
+
+## 7º dia 15-11
+
+![ofu que dia](https://media1.giphy.com/media/KpACNEh8jXK2Q/giphy.gif?cid=ecf05e47tc65hxsoq8uu422bef6ysrrrwtlqop0nv7evnl04&rid=giphy.gif&ct=g)
+
+- 07-condicionals.js
+  ** 4. Switch Statment**
+
+- 08-functions.js (:exploding_head:)
+
+  1. **intro** (bloque texto realiza una tarea específica / reutilizable)
+
+  2. **declaración**
+
+  - sin parametros
+  - con parametros
+  - con return
+
+  3. ** function expressions**
+  4. ** arrow functions**
+  5. **pruebas**
+
+- 09-loops.js
+
+  1. **for**
+  2. **while**
+  3. **do while**
+  4. **expansion del for**
+
+- 10-array-methods.js
+  _lista de methods_
+  1. **map()**
+  2. **filter()**
+  3. **sort()**
+  4. **forEach()**
+  5. **concat()**
+  6. **every()**
+  7. **some()**
+  8. **includes()**
+  9. **join()**
+  10. **reduce()**
+
+## 8º dia 16-11
+
+![se viene drama](https://media4.giphy.com/media/3ohhwtftK2lWSFvwUo/giphy.gif?cid=ecf05e47j6xey3hnqot10v22while2zsyzbwpxn8z1hjzf4u&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> “I’ve failed over and over again in my life. And that is why I succeed.” – Michael Jordan
