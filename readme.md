@@ -310,3 +310,30 @@ Querido readme...
 **_Quote of the day:_**
 
 > “I’ve failed over and over again in my life. And that is why I succeed.” – Michael Jordan
+
+hemos repasado conceptos pasados como -[Operador condicional (ternario)](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) y las functions.
+
+### DOM (:exploding_head:)
+
+"Conectamos" el doc js con el html y desde el js manipulamos el html creando y "animando"segun el uso/interactuación del user...
+
+- 11-dom-manipulation.js
+- 12-dom-manipulation-2.js
+- 12-dom.html
+  <br>
+
+#### Estado final del dia
+
+![Caos mental](https://media3.giphy.com/media/IpkyqWqbipGg/giphy.gif?cid=ecf05e47qtp7d828mw845dchokbreltjmj24un9f1avu559y&rid=giphy.gif&ct=g)
+<br>
+
+---
+
+## 9º dia 17-11
+
+![New day](https://media2.giphy.com/media/OjrONRkB1trxz3SR4Q/giphy.gif?cid=ecf05e478r1u61mazasd2sfy1yse5juq21wlikplcsi12rcg&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> “There’s beauty in the struggle”
+> – J Cole
