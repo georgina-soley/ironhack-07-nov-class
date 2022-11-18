@@ -337,3 +337,60 @@ hemos repasado conceptos pasados como -[Operador condicional (ternario)](https:/
 
 > “There’s beauty in the struggle”
 > – J Cole
+
+Hemos estado haciendo actividades y practicando +
+
+- 13-browser-events.html
+
+  1. **Mouse events**
+
+  - click
+  - dbl click (doble click)
+  - mousemove
+  - mouseover
+  - mousewheel
+  - mouseout
+  - mousedown
+  - mouseup
+
+  2. **Touch event**
+
+  - touchstart
+  - touchmove
+  - touchend
+  - touchcancel
+
+  3. **Keyboard Events**
+
+  - keydown
+  - keypress
+  - keyup
+
+  4. **Form events**
+
+  - focus
+  - blur
+  - change
+  - submit
+
+  5. **Window events**
+
+  - scroll
+  - resize
+  - hashchange
+  - load
+  - unload
+
+  -- Event Handlers (asignación)
+
+- 13-events-excercise.html
+
+---
+
+## 10º dia 18-11
+
+![New day](https://media2.giphy.com/media/augu2Ba3WubPG/giphy.gif?cid=ecf05e472ymgl0safsd9k6kmbv983xvu9rw3awh6oykgti2a&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> “Good friends, good books, and a sleepy conscience: this is the ideal life.” - Mark Twain
