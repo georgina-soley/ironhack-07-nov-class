@@ -2001,3 +2001,10 @@ const movies = [
     score: 8
   }
 ];
+//  module.exports = movies;
+
+//  if (typeof module !== 'undefined') {
+//    module.exports = movies;
+//  }
+
+//  export { movies };

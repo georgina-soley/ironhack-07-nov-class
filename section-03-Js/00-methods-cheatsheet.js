@@ -11,3 +11,7 @@ String.length: The.length property of a string returns the number of characters 
 
 Math.floor()
 The Math.floor() function returns the largest integer less than or equal to the given number.
+
+    dom
+    La propiedad Element.innerHTML devuelve o establece la sintaxis HTML describiendo los descendientes del elemento.
+    

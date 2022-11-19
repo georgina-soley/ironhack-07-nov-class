@@ -261,3 +261,23 @@ switch (countryOfOrigin/*podria haber puesto el .toLowerCase() aquí dentro */) 
     alert("you are not from this planet! go Invade somewhere else...");
     console.log("you are not from this planet! go Invade somewhere else...");
 }
+
+//-----------APUNTES PERSONALES, AMPLIACIÓN + COMPRENSIÓN----
+/*Ternary Operator
+The ternary operator allows for a compact syntax in the case of binary (choosing between two choices) decisions.
+It accepts a condition followed by a ? operator, and then two expressions separated by a :
+If the condition evaluates to truthy, the first expression is executed, otherwise, the second expression is executed.
+
+SO... en una "operación ternaria" sería como un if else condicional... ejemplo de función con if else & la misma compacta
+
+function avg2(arr){
+    if(arr.length === 0){
+    return null
+    } else{
+    return sum(arr)/arr.length;
+    }
+}; esto seria igual a esto siguiente:
+
+const avg2 = (arr)=>(!arr.length ? null : sum(arr)/arr.length);
+
+asíi pues el ? seria como el IF // y el : seria como el ELSE
