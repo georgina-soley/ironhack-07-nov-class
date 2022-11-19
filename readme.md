@@ -33,13 +33,18 @@ This is going to be awesome! So let's do it!
 
 - Visual Studio Code
   1. **Command + K +C** || **command + shift + 7**: comentario rapido
+  2. **option + Z**: adaptar el ancho de la frase a la pantalla
 
-### HTML Basics
+---
+
+---
+
+## HTML Basics
 
 - Interesting Tags/ tips:
   1. **!** pone la info principal del documento
 
-#### Section 01 html
+#### **Section 01 html**
 
 - 01-basic-layout.html
 
@@ -51,9 +56,9 @@ This is going to be awesome! So let's do it!
 
 - 03-typography.html
 
-  1. headings (h1, h2, h3, h4, h5, h6)
-  2. parrafo <p>
-  3. stylos (bold, strong, italic, emphatized)
+  1. **headings** (h1, h2, h3, h4, h5, h6)
+  2. **parrafo** <p>
+  3. **stylos** (bold, strong, italic, emphatized)
   4. delated text
   5. mark text
   6. subscribe
@@ -176,7 +181,7 @@ elementos bloque se acumulan de lado
 
 #### HTML & CSS
 
-## 4º DIA
+## 4º DIA 10-11
 
 #### HTML & CSS
 
