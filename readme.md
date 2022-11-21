@@ -399,3 +399,22 @@ Hemos estado haciendo actividades y practicando +
 **_Quote of the day:_**
 
 > “Good friends, good books, and a sleepy conscience: this is the ideal life.” - Mark Twain
+
+- 14-async-class.jss
+  1. setTimeot() method: acciona un código despues de un tiempo especificado (solo 1 vez)
+     -puede llevar parametros ( function, milisegundos, parametro,)
+  2. clearTimeout() method: para detener llamada en función
+  3. Callbacks
+  4. Promesas
+  - promesas .then()
+  - promesas .catch()
+  - promesas .finally()
+  5. async /await
+
+## 11º dia 21-11
+
+![A little confused](https://media0.giphy.com/media/gKsJUddjnpPG0/giphy.gif?cid=ecf05e471bt78kqn93zlpwuhlvp6dad08c0huyw5k550bytr&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> “Be tolerant with others and strict with yourself.” - Marcus Aeurelius
