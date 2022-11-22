@@ -58,12 +58,61 @@ obtainInstruction("steak", 0).then((paso) => {
 // ...
 const makeBroccoli = async () => {
   let result = await obtainInstruction("broccoli", 0);
-  document.querySelector("#broccoli").innerHTML+=`<li>${result}</li>`
-  
+  document.querySelector("#broccoli").innerHTML += `<li>${result}</li>`
+  let result2 = await obtainInstruction("broccoli", 1);
+  document.querySelector("#broccoli").innerHTML += `<li>${result2}</li>`
+  let result3 = await obtainInstruction("broccoli", 2);
+  document.querySelector("#broccoli").innerHTML += `<li>${result3}</li>`
+  let result4 = await obtainInstruction("broccoli", 3);
+  document.querySelector("#broccoli").innerHTML += `<li>${result4}</li>`
+  let result5 = await obtainInstruction("broccoli", 4);
+  document.querySelector("#broccoli").innerHTML += `<li>${result5}</li>`
+  let result6 = await obtainInstruction("broccoli", 5);
+  document.querySelector("#broccoli").innerHTML += `<li>${result6}</li>`
+  let result7 = await obtainInstruction("broccoli", 6);
+  document.querySelector("#broccoli").innerHTML += `<li>${result7}</li>`
+  //añadir texto manualmente
+  document.querySelector("#broccoli").innerHTML += `<li>Broccoli is ready!</li>`
+  // imagen
+  document.querySelector("#broccoliImg").removeAttribute("hidden");
 }
 makeBroccoli()
+
+
 // Iteration 3 using async/await
 // ...
 
 // Bonus 2 - Promise all
-// ...
+// metodo .all() encapsula todas las promesas dentro de un solo sitio. no se suele usar porque no se quieren procesos tan generales sino que se quieren funciones cortas y controladas.
+// como funciona: 
+
+const paso0 = obtainInstruction("brusselsSprouts", 0);
+const paso1 = obtainInstruction("brusselsSprouts", 1);
+const paso2 = obtainInstruction("brusselsSprouts", 2);
+const paso3 = obtainInstruction("brusselsSprouts", 3);
+const paso4 = obtainInstruction("brusselsSprouts", 4);
+const paso5 = obtainInstruction("brusselsSprouts", 5);
+const paso6 = obtainInstruction("brusselsSprouts", 6);
+const paso7 = obtainInstruction("brusselsSprouts", 7);
+
+//falta acabar
+
+// Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7]).then((valorArray) => {
+//   valorArray.forEach((instruction) => {
+//   document.querySelector("brusselsSprouts").innerHTML += `<li>${instruction}</li>`
+//   })
+//   document.querySelector("#brusselsSprouts")
+// })
+//   .catch((error) => console.log(error))
+
+//con async await
+
+async function makeBrusSpours() {
+  try {
+    const valores = await Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7]);
+
+    valores.forEach((instruction) => {document.querySelector("#brusselSsprouts").innerHTML += `<li>${instruction}</li>`;
+    //en catch basicamente registramos por si hubiera algun error
+  }) catch (error)
+  console.log(error)
+}

@@ -418,3 +418,31 @@ Hemos estado haciendo actividades y practicando +
 **_Quote of the day:_**
 
 > “Be tolerant with others and strict with yourself.” - Marcus Aeurelius
+
+-
+
+- 15-fetch.html
+
+  1. JSON
+
+  - Metodos
+    · response.json()
+    · .parse()
+    · fetch method
+
+- Presentación Mid-Term-Project
+  -Incio del proyecto
+
+## Empieza el juego
+
+## 12º dia 22-11
+
+![Let's start!](https://media1.giphy.com/media/DuDfMU7OulG8Zsdu9K/200w.webp?cid=ecf05e474kep4i5dozfd7jy9aczrb756afr8wc9omosxx7d4&rid=200w.webp&ct=g)
+
+**_Quote of the day:_**
+
+> “Discipline is choosing between what you want now and what you want the most.” - Abraham Lincoln
+
+### Empezamos con el mid-term project
+
+Hoy me pondré con la creación de la estructura html de home y de Contact Us + empezaré a dar estilos CSS a la Home.
