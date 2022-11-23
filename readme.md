@@ -446,3 +446,17 @@ Hemos estado haciendo actividades y practicando +
 ### Empezamos con el mid-term project
 
 Hoy me pondré con la creación de la estructura html de home y de Contact Us + empezaré a dar estilos CSS a la Home.
+
+### CSS Ampliación
+
+- 20-css-variables.html
+- 21-transitions.html
+- 22-keyframes.html
+
+## 13º dia 23-11
+
+![Let's start!](https://media0.giphy.com/media/MGdfeiKtEiEPS/giphy.gif?cid=ecf05e478vbevpr5a6id9uahs0nm9vw95ldi4tvscqi057m1&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> “Be impatient with action but patient with results” - Naval Ravikant
