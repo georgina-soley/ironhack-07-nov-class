@@ -460,3 +460,13 @@ Hoy me pondré con la creación de la estructura html de home y de Contact Us + 
 **_Quote of the day:_**
 
 > “Be impatient with action but patient with results” - Naval Ravikant
+
+Css a tope, estilos + mediaquery, creación de pàginas así el jueves puedo darle caña a javascript.
+
+## 14º dia 24-11
+
+![Mood constante semanal](https://media0.giphy.com/media/vhVqGkxDYxAaRbOWVp/200.webp?cid=ecf05e4734hmwbzt4bh5mff8ts2hzz72agka2yghvw1elcx6&rid=200.webp&ct=g)
+
+**_Quote of the day:_**
+
+> “”No person is free who is not master of himself.“” - Marcus Aurelius
