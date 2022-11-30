@@ -97,22 +97,26 @@ const paso7 = obtainInstruction("brusselsSprouts", 7);
 
 //falta acabar
 
-// Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7]).then((valorArray) => {
-//   valorArray.forEach((instruction) => {
-//   document.querySelector("brusselsSprouts").innerHTML += `<li>${instruction}</li>`
-//   })
-//   document.querySelector("#brusselsSprouts")
-// })
-//   .catch((error) => console.log(error))
+ Promise.all ([paso0,paso1,paso2,paso3,paso4,paso5,paso6,paso7])
+ .then
+ ((valor) => {
+   valor.forEach((instruccion)=> {
+    document.querySelector("#brusselsSprouts").innerHTML += `<li>${instruccion}</li>`
 
-//con async await
+     });
+     document.querySelector("#brusselsSprouts").innerHTML += `<li>The brussels Sprouts are ready!</li>`;
+     document.querySelector("#brusselsSproutsImg").removeAttribute("hidden")
+   })
+ .catch((error) => console.log(error));
 
-async function makeBrusSpours() {
-  try {
-    const valores = await Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7]);
+//con async await (NO ESTÀ BIEN PORQUE NO ME MUESTRA TODO)
 
-    valores.forEach((instruction) => {document.querySelector("#brusselSsprouts").innerHTML += `<li>${instruction}</li>`;
-    //en catch basicamente registramos por si hubiera algun error
-  }) catch (error)
-  console.log(error)
-}
+//  async function makeBrusSpours() {
+//    try {
+//      const valores = await Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7]);
+
+//      valores.forEach((instruction) => {document.querySelector("#brusselsSprouts").innerHTML += `<li>${instruction}</li>`;
+//      //en catch basicamente registramos por si hubiera algun error
+//      }) 
+//    catch (error) => console.log(error)
+//    };

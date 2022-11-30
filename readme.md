@@ -470,3 +470,74 @@ Css a tope, estilos + mediaquery, creación de pàginas así el jueves puedo dar
 **_Quote of the day:_**
 
 > “”No person is free who is not master of himself.“” - Marcus Aurelius
+
+Javascript, nada màs que añadir. Necesito mucho el soporte de loes AT y compañeros para conseguir hacerlo, lo entiendo al momento... luego ya se me esfuma de la cabeza, día de acabar cosas.
+
+## 15º dia 25-11
+
+![I see the light](https://media4.giphy.com/media/Sb9g8EwGfrPqg/200w.webp?cid=ecf05e475zk3ex4grbh13lj6wtuw2gajpn7965ggsk90zpcd&rid=200w.webp&ct=g)
+
+**_Quote of the day:_**
+
+> ““Make the mind tougher by exposing it to adversity.”" - Robert Greene
+
+Last day! Hoy quedan pequeñas cosas que no me han acabado de funcionar, como el menú burger y revisar el resto de la web + la ppt. La tarde es para presentar la odisea.
+
+- Tengo que ser mucho màs ordenada.
+- Tengo que pararme a pensar antes de ejecutar y ponerme nerviosa ( eso también entra dentro del orden)
+- Intentar no repetiir tanto código
+- Disfrutar màs del proceso de aprendizaje, estoy aprendiendo y no puede ser todo perfecto.
+
+## 16º dia 28-11
+
+![New start!](https://media2.giphy.com/media/5bdgsd3ChyajOVN0rl/200w.webp?cid=ecf05e4784ydtunc233l95tt5htp151qsxr7tqwgh20uh0my&rid=200w.webp&ct=g)
+
+**_Quote of the day:_**
+
+> ““Failure is simply the opportunity to begin again, this time more intelligently” - Henry Ford
+
+### Empezamos con Vue!
+
+-Aprendemos la configuración de proyectos
+
+- crear carpeta
+- en terminal npm init vue@latest
+  -cuando se activa poner no a todo lo que preguntan (el Rauted mañana serà que si).
+
+- una vez creada la carpeta nos metemos dentro de ella cd nameOf carpeta y damos _npm run dev_ y ahí lo podemos mirar en browser que nos da el link. Con eso levantamos servidor y para matar/tumbar servidor = contro C.
+
+- 0-MyFirstComponent.vue
+
+  - Muestra del funcionamiento
+
+- 1-TextInterpolation.vue
+- 2-TextDirective.vue
+- 3-HtmlDirective.vue
+- 4-attribute-binding.vue
+  1. v-bind: || :
+
+## 17º dia 29-11
+
+![Hell yeah!](https://media4.giphy.com/media/NXp9HM6YeuS0U/giphy.gif?cid=ecf05e47egokqeni7p9eyqe6hjuef3yq7s65dxfhm2ay6b8s&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> ““No man was ever wise by chance” - Seneca
+
+- 5-CondicionalsRendering.vue
+
+  1. v-if
+  2. v-else
+  3. v-else-if
+  4. v-show?
+
+- 6-IteratingElements.vue
+  1. v-for
+
+## 18º dia 30-11
+
+![Hell yeah!](https://media0.giphy.com/media/8YHmc8luwmJJjFY7zh/giphy.gif?cid=ecf05e47ytc5yqfhv3gyaeugld5h4faugl7xokatds7yoluh&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**[Excerpt from a record called Poe Mans Dream(his vice)]
+
+> ““Apply yourself to supply your wealth, Only limitations you’ll ever have are those that you place upon yourself” - GLC
