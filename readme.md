@@ -541,3 +541,14 @@ Last day! Hoy quedan pequeñas cosas que no me han acabado de funcionar, como el
 **_Quote of the day:_**[Excerpt from a record called Poe Mans Dream(his vice)]
 
 > ““Apply yourself to supply your wealth, Only limitations you’ll ever have are those that you place upon yourself” - GLC
+
+- 7-slots (guay!)
+- 8-props (boom!)
+
+## 19º dia 1-12
+
+![What!?](https://media3.giphy.com/media/aHS3V5uGRwHrvqpBjv/giphy.gif?cid=ecf05e47syl12xzucp4kg7mompnzost3btj7bqs85ekcrcma&rid=giphy.gif&ct=g)
+
+**_Quote of the day:_**
+
+> “May you always remember to enjoy the road, especially when it’s a hard one.” - Kobe Bryant

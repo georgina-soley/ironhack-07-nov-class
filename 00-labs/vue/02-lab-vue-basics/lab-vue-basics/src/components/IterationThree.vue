@@ -4,7 +4,7 @@
 
   <ul>
     <li v-for="(component, index) in componentData" :key="index">
-    {{component.title}} : {{component.content}} => {{component.description}}
+   {{index}} . {{component.title}} : {{component.content}} => {{component.description}}
     </li>
   </ul>
 

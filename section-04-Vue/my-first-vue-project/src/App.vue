@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 // import MyFirstComponentVue from './vueBasics/MyFirstComponent.vue';
 // import ActivityConditionalsVue from './components/ActivityConditionals.vue';
 import IteritingElementsVue from './components/IteritingElements.vue';
+import SlotsPractice from './components/SlotsPractice.vue'
+import Props from './components/props.vue'
 </script>
 
 <template>
@@ -17,6 +19,14 @@ import IteritingElementsVue from './components/IteritingElements.vue';
     <!-- <MyFirstComponentVue/>
     <ActivityConditionalsVue /> -->
     <IteritingElementsVue />
+    <SlotsPractice/>
+    <br>
+    <Props 
+    name="Georgy"
+    age="30"
+    birthPlace="Sabadell"
+    currentLocation="Barcelona"
+    />
   </main>
 </template>
 
