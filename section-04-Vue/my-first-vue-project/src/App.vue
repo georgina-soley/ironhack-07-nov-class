@@ -5,29 +5,40 @@ import HelloWorld from './components/HelloWorld.vue'
 import IteritingElementsVue from './components/IteritingElements.vue';
 import SlotsPractice from './components/SlotsPractice.vue'
 import Props from './components/props.vue'
+import ComputedProperties from './components/ComputedProperties.vue';
+import FormTwoWayData from './components/FormTwoWayData.vue';
+// import WatcherActivity from './components/whatchers/WatcherActivity.vue';
+import Events from './components/events/ParentComponent.vue'
 </script>
 
 <template>
+<div>
   <header>
    
-    <div class="wrapper">
-      <HelloWorld msg="New activity" />
-    </div>
-  </header>
+   <div class="wrapper">
+     <HelloWorld msg="New activity" />
+   </div>
+ </header>
 
-  <main>
-    <!-- <MyFirstComponentVue/>
-    <ActivityConditionalsVue /> -->
-    <IteritingElementsVue />
-    <SlotsPractice/>
-    <br>
-    <Props 
-    name="Georgy"
-    age="30"
-    birthPlace="Sabadell"
-    currentLocation="Barcelona"
-    />
-  </main>
+ <main>
+   <!-- <MyFirstComponentVue/>
+   <ActivityConditionalsVue /> -->
+   <!-- <IteritingElementsVue />
+   <SlotsPractice/>
+   <br>
+   <Props 
+   name="Georgy"
+   age="30"
+   birthPlace="Sabadell"
+   currentLocation="Barcelona"
+   /> -->
+   <!-- <ComputedProperties /> -->
+   <!-- <FormTwoWayData /> -->
+   <!-- watcher no ha salido bien hay que mirar que pasa  -->
+   <!-- <WatcherActivity /> -->
+<Events />
+ </main>
+</div>
 </template>
 
 <style scoped>

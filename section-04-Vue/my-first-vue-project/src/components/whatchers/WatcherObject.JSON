@@ -1,0 +1,17 @@
+[
+    {
+        "answer": "Yes",
+        "response": "Yeyyy, te gusta la pizza",
+        "image": "https://media3.giphy.com/media/8EfFfeGmIof07aztZD/giphy.gif?cid=ecf05e47ssfwfhy3auemo2k3dks0f2831c87esxn62jr49sm&rid=giphy.gif&ct=g"
+     },   
+    {
+         "answer": "no",
+         "response": "que rarito eres",
+         "image": "https://media3.giphy.com/media/d9rGLfxrh1Rfy/giphy.gif?cid=ecf05e47wnqzgigsmtefssosoyydcksgcqpndhaym1v9oolk&rid=giphy.gif&ct=g"
+      },
+    {
+        "answer": "",
+        "response": "contéstame bien",
+         "image": "https://media0.giphy.com/media/fMvvwdTWamlA4/giphy.gif?cid=ecf05e47rvasz64h5lp3x06rfiwm0niube77821uxkwawh4q&rid=giphy.gif&ct=g"
+    }
+ ]
